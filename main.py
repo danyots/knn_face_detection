@@ -15,7 +15,7 @@ predictor = dlib.shape_predictor(predictor_path)
 def generate_image(emotion):
 
     # Set up your OpenAI API key
-    openai.api_key = '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'
+    openai.api_key = 'your-API-key-here'
 
     def generate_image_from_text(input_text):
         # Call the OpenAI API to generate an image based on the input text
